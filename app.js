@@ -1,8 +1,8 @@
-import express from 'express';
+import express from "express";
 const app = express();
-import api from './routes';
+import api from "./routes";
 
 app.use(express.json());
-app.use('/api', api);
+app.use("/api", api);
 
 export default app;
